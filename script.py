@@ -1,3 +1,9 @@
+"""Moves all PDF files from the current directory to a 'PDF Documents' subdirectory.
+
+This script scans the current directory for files ending with '.pdf'. If a 'PDF Documents'
+subdirectory does not exist, it creates one. It then moves all identified PDF files
+into this subdirectory, printing a confirmation message for each file moved.
+"""
 import os
 import shutil
 
